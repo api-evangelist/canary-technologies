@@ -1,0 +1,14 @@
+generated: '2026-07-18'
+method: searched
+probe: true
+source: https://security.canarytechnologies.com/
+url: https://security.canarytechnologies.com/
+certifications:
+- SOC 2
+- PCI DSS
+evidence:
+- source: https://security.canarytechnologies.com/
+  keywords:
+  - soc 2
+  - pci dss
+  - trust center

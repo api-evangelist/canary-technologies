@@ -1,9 +1,31 @@
 aid: canary-technologies
 name: Canary Technologies
-description: Canary Technologies is a company surfaced as a portfolio company of insight-partners and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Canary Technologies is an AI-powered hospitality management platform trusted by
+  more than 20,000 hotels across 90+ countries, including brands such as Marriott
+  International, Four Seasons, Choice Hotels, Wyndham, and IHG. Founded in 2016 and
+  headquartered in San Francisco, Canary provides digital guest management —
+  contactless mobile check-in/checkout, tablet registration, upsells, guest
+  messaging, digital tipping, and Canary AI — along with PCI-compliant secure
+  transactions and fraud prevention. The company maintains its own integration
+  tooling and a partner/enterprise API that connects to 80+ property-management,
+  payment, and hospitality systems (Oracle Hospitality, Mews, Cloudbeds, Sabre,
+  Adyen, Shift4, and others), launching 5-10 new integrations per quarter. Canary
+  does not publish a public developer portal or OpenAPI; API access is granted to
+  hotel partners and integration providers.
 url: https://raw.githubusercontent.com/api-evangelist/canary-technologies/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/5c6d1141d51c77692887d502/6a3ae5a5707413d3229e72ae_canary-home.webp
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,9 +34,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Hospitality
+- Hotels
+- Guest Management
+- Payments
+- Travel
+- Integrations
+- Artificial Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +51,32 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: TrustCenter
+  url: security/canary-technologies-trust-center.yml
+- type: DomainSecurity
+  url: security/canary-technologies-domain-security.yml
 - type: Website
   url: https://www.canarytechnologies.com/
+- type: Integrations
+  url: https://www.canarytechnologies.com/integrations
+- type: Pricing
+  url: https://www.canarytechnologies.com/pricing
+- type: Blog
+  url: https://www.canarytechnologies.com/blog
+- type: Login
+  url: https://www.canarytechnologies.com/login/
+- type: Support
+  url: https://resources.canarytechnologies.com/contact-canary-support.html
+- type: TermsOfService
+  url: https://www.canarytechnologies.com/terms
+- type: PrivacyPolicy
+  url: https://www.canarytechnologies.com/privacy
+- type: LinkedIn
+  url: https://www.linkedin.com/company/canarytech
+- type: Compliance
+  url: https://security.canarytechnologies.com/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
