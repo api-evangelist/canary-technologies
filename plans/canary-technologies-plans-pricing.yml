@@ -1,0 +1,34 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://www.canarytechnologies.com/pricing
+sources:
+- https://www.canarytechnologies.com/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: negotiated
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+published: false
+note: No numeric price is published on the pricing page; Page titled 'Get Custom Pricing'; three bundles
+  all list 'Get Quote' with no numeric prices. Unlimited users, data and support included with every subscription.
+plan_count: 3
+plans:
+- name: Core
+  price_text: Get Quote
+  period: none
+  included_quota: Mobile Check-In, Guest Messaging, Digital Compendium
+- name: Advanced
+  price_text: Get Quote
+  period: none
+  included_quota: 'Everything in Core, plus: AI Messaging Responses, Tablet Registration, Dynamic Upsells
+    (0% commission), Digital Tipping, Smart Checkout'
+- name: Pro
+  price_text: Get Quote
+  period: none
+  included_quota: 'Everything in Advanced, plus: AI Webchat, custom reservation links'
