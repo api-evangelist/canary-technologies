@@ -71,6 +71,8 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: Plans
+  url: plans/canary-technologies-plans-pricing.yml
 - url: https://www.canarytechnologies.com/post/rss.xml
   type: BlogRSS
 - type: TrustCenter
