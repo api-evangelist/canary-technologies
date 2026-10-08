@@ -32,3 +32,30 @@ plans:
   price_text: Get Quote
   period: none
   included_quota: 'Everything in Advanced, plus: AI Webchat, custom reservation links'
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models: []
+  units: []
+  plans:
+  - name: Core
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods:
+    - none
+  - name: Advanced
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods:
+    - none
+  - name: Pro
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods:
+    - none
