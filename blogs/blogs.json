@@ -3,17 +3,24 @@
   "feeds": [
     {
       "source": "https://www.canarytechnologies.com/blog",
-      "feed_url": "https://www.canarytechnologies.com/blog/rss.xml",
+      "feed_url": "https://www.canarytechnologies.com/blog",
       "title": "",
-      "saved": 3,
-      "method": "discovered"
+      "saved": 0,
+      "method": "none"
     },
     {
       "source": "https://www.canarytechnologies.com/post/rss.xml",
       "feed_url": "https://www.canarytechnologies.com/post/rss.xml",
       "title": "",
       "saved": 0,
-      "method": "feed"
+      "method": "none"
+    },
+    {
+      "source": "https://www.canarytechnologies.com/blog/rss.xml",
+      "feed_url": "https://www.canarytechnologies.com/blog/rss.xml",
+      "title": "",
+      "saved": 0,
+      "method": "none"
     },
     {
       "source": "https://www.canarytechnologies.com/pricing",
@@ -24,5 +31,5 @@
     }
   ],
   "post_count": 3,
-  "fetched": "2026-10-10T13:15:00Z"
+  "fetched": "2026-10-17T14:53:57Z"
 }
